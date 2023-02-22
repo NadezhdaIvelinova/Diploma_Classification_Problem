@@ -110,7 +110,7 @@ namespace ClassificationModel_ConsoleApp
                 .Length);
 
             // Print the word vector without stop words.
-            Console.WriteLine("\nWords without stop words: " + string.Join(",",
+            Console.WriteLine("\nKeywords: " + string.Join(",",
                 prediction.WordsWithoutStopWords));
         }
     }
